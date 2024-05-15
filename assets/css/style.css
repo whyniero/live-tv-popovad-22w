@@ -1,0 +1,337 @@
+:root{
+    --color-blue-1: #0152d5;
+    --color-blue-2: #6eaffb;
+    --color-dark-1: #000d21;
+    --color-dark-2: #101b26;
+    --color-gray: #919090;
+
+}
+
+body{
+    background-color: #141414;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, .nav-link, .btn{
+    font-family: 'Golos Text';
+    color: white;
+}
+
+.btn{
+    border: 0;
+}
+
+header, section{
+    margin-bottom: 100px;
+}
+
+h2{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+h3{
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+h6{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+p{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+
+
+.blue-button{
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 220px;
+    height: 50px;
+    background: linear-gradient(to right, var(--color-blue-1), var(--color-blue-2));
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.black-button{
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    width: 150px;
+    height: 50px;
+    background: linear-gradient(to right, var(--color-dark-1), var(--color-dark-2));
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bookmark-button{
+    width: 50px;
+    height: 50px;
+}
+
+header .container-fluid{
+    padding: 0;
+    margin: 0;
+}
+
+.main .container{
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.ind{
+    padding-top: 15%;
+    padding-bottom: 5%;
+    margin-left: 5%;
+}
+
+.film-info{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #919090;
+}
+
+.rating{
+    color: white;
+    font-size: 1rem;
+    margin-right: 1%;
+}
+
+.price{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.selection-of-films .container{
+    background-image: url(../img/6.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.ind-selection{
+    padding: 10% 0;
+    margin-left: 5%;
+}
+
+.orange-block{
+    width: 150px;
+    height: 40px;
+    background: linear-gradient(to right, #ff522e, #f0971a);
+    border-radius: 50px;
+}
+
+.orange-text{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.radios{
+    margin-top: 30px;
+}
+
+.radio-b{
+    background-color: #141414;
+    border: #141414;
+    color: #919090;
+}
+
+
+.radio-b:hover{
+    background-color: #141414;
+    border: #141414;
+    color: #0152d5;
+    transition: .2s;
+}
+
+.list-group-item{
+    font-family: 'Golos Text';
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.list-group-item.active {
+    background-color: #141414;
+    border-color: #141414;
+    color: white;
+}
+
+.line{
+    width: 0%;
+    height: 2px;
+    background-color: #6eaffb;
+}
+
+.list-group-item.active .line{
+    width: 100%;
+    transition: .2s;
+}
+
+
+.about-us{
+    background-color: #1f1f1f;
+}
+
+.form-control{
+    background-color: #141414;
+    border-color: #919090;
+}
+
+.blue-gradient-text{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(to right, var(--color-blue-1), var(--color-blue-2));
+}
+
+.prices{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+    width: 200px;
+    border-radius: 10px;
+    background: linear-gradient(to right, var(--color-dark-1), var(--color-dark-2));
+}
+
+.prices h6{
+    font-size: 2rem;
+    font-weight: 700;
+    color: transparent;
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(to right, var(--color-blue-1), var(--color-blue-2));
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p{
+    font-size: 1rem;
+}
+
+footer a{
+    font-size: 1rem;
+}
+
+@media (max-width: 992px) {
+    h2{
+        font-size: 3.1rem;
+    }
+    
+    h3{
+        font-size: 2rem;
+    }
+    
+    h6{
+        font-size: 1rem;
+    }
+    
+    p{
+        font-size: 1rem;
+    }
+
+    footer a{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px){
+    h2{
+        font-size: 2.5rem;
+    }
+    
+    h3{
+        font-size: 1.5rem;
+    }
+    
+    h6{
+        font-size: 0.8rem;
+    }
+    
+    p{
+        font-size: 0.8rem;
+    }
+
+    footer a{
+        font-size: 0.8rem;
+    }
+
+    .blue-button{
+        font-size: 0.8rem;
+        width: 160px;
+        height: 40px;
+    }
+    
+    .black-button{
+        font-size: 0.8rem;
+        width: 110px;
+        height: 40px;
+
+    }
+    
+    .bookmark-button{
+        width: 40px;
+        height: 40px;
+    }
+
+    .film-info{
+        font-size: 0.8rem;
+    }
+    
+    .rating{
+        font-size: 0.9rem;
+    }
+
+    .list-group-item{
+        font-family: 'Golos Text';
+        font-size: 12px;
+    }
+
+    .blue-gradient-text{
+        font-size: 2rem;
+    }
+
+    .prices{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 120px;
+        width: 130px;
+    }
+}
+
+@media (max-width: 320px){
+    h2{
+        font-size: 1.7rem;
+    }
+    
+    h3{
+        font-size: 1.2rem;
+    }
+    
+    h6{
+        font-size: 0.7rem;
+    }
+    
+    p{
+        font-size: 0.7rem;
+    }
+    
+    footer a{
+        font-size: 0.7rem;
+    }
+}
+

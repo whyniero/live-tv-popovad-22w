@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live TV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="./assets/img/Live.TV.svg" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Фильмы</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Сериалы</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Мультфильмы</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Новинки</a>
+                            </li>
+                        </ul>
+                        <ul class="nav justify-content-end">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <img src="./assets/img/search.svg" alt="">
+                                    Поиск
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <img src="./assets/img/bag.svg" alt="">
+                                    Мои покупки
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <img src="./assets/img/account.svg" alt="">
+                                    Мой аккаунт
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="main">
+        <div class="container">
+            <div class="col-sm-12 col-md-6 col-xl-5 ind ">
+                <h2>НЕЗНАКОМЕЦ</h2>
+
+                <p class="film-info"><span class="rating">8.9</span> 2020, США Триллер, драма 113 мин</p>
+
+                <p class="mb-5"> Софи была счастлива в браке со своим мужем Генри. Пока однажды ей не пришло анонимное
+                    письмо,
+                    предупреждение, что ей нужно бежать от мужа. Пытаясь разгадать эту загадку,
+                    Софи впадает в ужас, ведь Генри оказывается совсем не тем человеком, которого она знает…</p>
+
+                <div class="row d-flex flex-row g-2">
+                    <div class="col">
+                        <button type="button" class="btn blue-button text-white">
+                            <img src="./assets/img/play.svg" alt="">Смотреть онлайн
+                        </button>
+                    </div>
+                    <div class="col">
+                        <button type="button" class="btn black-button text-white">
+                            <img src="./assets/img/video.svg" alt="">Трейлер
+                        </button>
+                    </div>
+                    <div class="col">
+                        <button type="button" class="btn black-button bookmark-button text-white">
+                            <img src="./assets/img/bookmark.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="recommendations">
+        <div class="container">
+            <h3 class="mb-5">Рекомендуем посмотреть</h3>
+
+            <div
+                class="row row-cols-sm-2 row-cols-lg-4 row-cols-md-2 d-flex align-content-center justify-content-between g-4">
+                <div class="col-xs">
+                    <img src="./assets/img/2.jpg" class="img-fluid rounded-2 mb-3" alt="">
+                    <h6>Под водой</h6>
+                    <p class="film-info">Приключения, семейный</p>
+                </div>
+                <div class="col-xs">
+                    <img src="./assets/img/3.jpg" class="img-fluid rounded-2 mb-3" alt="">
+                    <h6>Мгла</h6>
+                    <p class="film-info">Ужасы, триллер</p>
+                </div>
+                <div class="col-xs">
+                    <img src="./assets/img/4.jpg" class="img-fluid rounded-2 mb-3" alt="">
+                    <h6>Охота</h6>
+                    <p class="film-info">Детектив, криминал, драма</p>
+                </div>
+                <div class="col-xs">
+                    <img src="./assets/img/5.jpg" class="img-fluid rounded-2 mb-3" alt="">
+                    <h6>Синхронизация</h6>
+                    <p class="film-info">Триллер, драма</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="selection-of-films">
+        <div class="container">
+            <div class="col-sm-12 col-md-6 col-xl-4 ind-selection">
+                <h2>КОСМИЧЕСКАЯ ПОДБОРКА</h2>
+                <p>100 лучших фильмов о космосе, других планетах и инопланетян.
+                    Рейтинг составлен на основании оценок и рецензий пользователей Live.TV.
+                </p>
+                <button type="button" class="btn blue-button text-white">
+                    <img src="./assets/img/play.svg" alt="">Смотреть подборку
+                </button>
+            </div>
+    </section>
+
+    <section class="opening-week">
+        <div class="container d-lg-flex justify-content-between">
+            <div class="col-lg-5 col-md-12">
+                <div class="orange-block d-flex justify-content-center align-items-center mb-3">
+                    <h5 class="orange-text pt-2">ОТКРЫТИЕ НЕДЕЛИ</h5>
+                </div>
+                <h2>БЕССОННИЦА</h2>
+
+                <p class="film-info"><span class="rating">7.8</span> 2021, США Драма, триллер 98 мин</p>
+
+                <p>Драма, в которой стерты все границы реальности и вымысла. Потеряв сон,
+                    герой Метью Кросса потерял себя и уже не понимает, что происходит по-настоящему,
+                    а что является плодом его воображения.</p>
+                <h5 class="price mb-4">199 ₽</h5>
+                <div class="row d-flex flex-row g-2">
+                    <div class="col">
+                        <button type="button" class="btn blue-button text-white">
+                            <img src="./assets/img/play.svg" alt="">Купить и смотреть
+                        </button>
+                    </div>
+                    <div class="col">
+                        <button type="button" class="btn black-button text-white">
+                            <img src="./assets/img/video.svg" alt="">Трейлер
+                        </button>
+                    </div>
+                    <div class="col">
+                        <button type="button" class="btn black-button bookmark-button text-white">
+                            <img src="./assets/img/bookmark.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="radios">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="list-group d-flex flex-row" id="list-tab" role="tablist">
+                                    <a class="list-group-item list-group-item-action text-uppercase active radio-b"
+                                        id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab"
+                                        aria-controls="list-home">Описание <div class="line"></div></a>
+                                    <a class="list-group-item list-group-item-action text-uppercase radio-b"
+                                        id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab"
+                                        aria-controls="list-profile">Детали <div class="line"></div></a>
+                                    <a class="list-group-item list-group-item-action text-uppercase radio-b"
+                                        id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab"
+                                        aria-controls="list-messages">Отзывы <div class="line"></div></a>
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="tab-content" id="nav-tabContent">
+                                    <div class="tab-pane fade show active" id="list-home" role="tabpanel"
+                                        aria-labelledby="list-home-list">
+                                        <p class="white-text">Самуэль уже забыл, когда высыпался последний раз. Он
+                                            перестал понимать, где граница жизни, а где небытия. Но он пытается
+                                            продолжать жить
+                                            и работать, как ни в чем не бывало. Неожиданно в его жизни начали появляться
+                                            необычные люди. На работе появился новый коллега,
+                                            который общается только с ним. В доме появляется соседка, с которой у него
+                                            закрутился роман. Самуэль продолжал жить и не обращал внимания на
+                                            бессонницу.
+                                            Пока однажды в его жизни начали появляться не только новые люди, но и те,
+                                            кто уже давно покинул этот мир. Теперь Самуэль пытается понять,
+                                            где реальность, кто из всех окружающих его людей настоящий. И настоящий ли
+                                            он сам? А может это все затянувшийся сон?</p>
+                                    </div>
+                                    <div class="tab-pane fade" id="list-profile" role="tabpanel"
+                                        aria-labelledby="list-profile-list">
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia omnis nisi
+                                            dicta saepe
+                                            perspiciatis velit rem, eos quae, dolorum veritatis consequuntur, blanditiis
+                                            dolores sunt
+                                            iure eum quis? Deleniti excepturi quos impedit dignissimos cum hic tempora
+                                            rem! Quas corporis blanditiis eius.</p>
+                                    </div>
+                                    <div class="tab-pane fade" id="list-messages" role="tabpanel"
+                                        aria-labelledby="list-messages-list">
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia omnis nisi
+                                            dicta saepe
+                                            perspiciatis velit rem, eos quae, dolorum veritatis consequuntur, blanditiis
+                                            dolores sunt
+                                            iure eum quis? Deleniti excepturi quos impedit dignissimos cum hic tempora
+                                            rem! Quas corporis blanditiis eius.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12 col-lg-6 g-4">
+                <img src="./assets/img/7.jpg" class="img-fluid rounded-2 my-4" alt="">
+                <div class="row row-cols-2 g-4">
+                    <div class="col">
+                        <img src="./assets/img/8.jpg" class="img-fluid rounded-2" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="./assets/img/9.jpg" class="img-fluid rounded-2" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="./assets/img/10.jpg" class="img-fluid rounded-2" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="./assets/img/11.jpg" class="img-fluid rounded-2" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-us">
+        <div class="container d-lg-flex flex-lg-row justify-content-between py-5">
+            <div class="col-lg-5 col-md-12 mb-4">
+                <img src="./assets/img/12.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <h3>Live TV - это ваши любимые фильмы и сериалы в отличном качестве</h3>
+
+                <p>Эксклюзивные премьеры и любимые легендарные фильмы, под любое настроение
+                    и для зрителей всех возрастов и интересов. Лицензионное качество видео,
+                    отличная картинка, оригинальная озвучка, просмотр без рекламы на любом
+                    устройстве – все это доступно в видеосервисе Live TV.
+                    Оформите подписку и смотрите любое кино на 5 разных устройствах.
+                </p>
+
+                <div class="row row-cols-2 g-4">
+                    <div class="col">
+                        <h5 class="blue-gradient-text">40 млн</h5>
+                        <p>пользователей</p>
+                    </div>
+                    <div class="col">
+                        <h5 class="blue-gradient-text">300 тысяч</h5>
+                        <p>фильмов и сериалов</p>
+                    </div>
+                    <div class="col">
+                        <h5 class="blue-gradient-text">100+</h5>
+                        <p>эксклюзивных проектов</p>
+                    </div>
+                    <div class="col">
+                        <h5 class="blue-gradient-text">2 млрд часов</h5>
+                        <p>просмотра за 2020 год</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="form">
+        <div class="container">
+            <h2>ОФОРМИТЕ ПОДПИСКУ</h2>
+            <div class="row d-flex flex-row justify-content-between g-4 mt-2">
+                <div class="col-lg-5 col-md-12">
+                    <p>Получите полный доступ к каталогу Live. Безупречное
+                        качество картинки и звука, одновременный просмотр на
+                        5 устройствах, отсутствие рекламы, загрузка на устройства для офлайн-доступа. </p>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">
+                            <p class="mb-0">Имя</p>
+                        </label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">
+                            <p class="mb-0">Телефон</p>
+                        </label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">
+                            <p class="mb-0">E-mail</p>
+                        </label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <p>Выберите тариф</p>
+                    <div class="col d-md-flex g-4">
+                        <div class="col-md form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                <p>1 месяц</p>
+                            </label>
+                        </div>
+                        <div class="col-md form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
+                                checked>
+                            <label class="form-check-label" for="flexRadioDefault2">
+                                <p>3 месяца</p>
+                            </label>
+                        </div>
+                        <div class="col-md form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3"
+                                checked>
+                            <label class="form-check-label" for="flexRadioDefault3">
+                                <p>6 месяцев</p>
+                            </label>
+                        </div>
+                        <div class="col-md form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4"
+                                checked>
+                            <label class="form-check-label" for="flexRadioDefault4">
+                                <p>12 месяцев</p>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="col mt-1">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                <p>Я согласен на обработку моих персональных данных</p>
+                            </label>
+                        </div>
+                        <button type="button" class="btn blue-button text-white mt-2">
+                            Оформить подписку
+                        </button>
+                    </div>
+
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="row row-cols-md-2 g-4">
+                        <div class="col">
+                            <div class="prices">
+                                <p class="m-0 mb-1">1 месяц</p>
+                                <h6 class="m-0 mb-1">199 ₽</h6>
+                                <p class="m-0">199 Р/месяц</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="prices">
+                                <p class="m-0 mb-1">3 месяца</p>
+                                <h6 class="m-0 mb-1">529 ₽</h6>
+                                <p class="m-0">176 Р/месяц</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="prices">
+                                <p class="m-0 mb-1">6 месяцев</p>
+                                <h6 class="m-0 mb-1">999 ₽</h6>
+                                <p class="m-0">166 Р/месяц</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="prices">
+                                <p class="m-0 mb-1">12 месяцев</p>
+                                <h6 class="m-0 mb-1">1790 ₽</h6>
+                                <p class="m-0">149 Р/месяц</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+        <!-- <div class="container">
+            <div class="row g-4">
+                <div class="col-md">
+                    <p>Live.TV © 2021 Все права защищены</p>
+                </div>
+                <div class="col-md">
+                    <a href="">Политика конфиденциальности</a>
+                </div>
+                <div class="col"></div>
+                <div class="col-md">
+                    <img src="./assets/img/facebook.svg" alt="">
+                    <img src="./assets/img/instagram.svg" alt="">
+                    <img src="./assets/img/youtube.svg" alt="">
+                </div>
+            </div>            
+        </div> -->
+
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+                <div class="col-md-6 d-flex align-items-center gap-4">
+                    <p class="m-0">Live.TV © 2021 Все права защищены</p>
+                    <a href="" class="m-0">Политика конфиденциальности</a>
+                </div>
+
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                    <li class="ms-3"><a class="text-muted" href="#">
+                            <img src="./assets/img/facebook.svg" alt=""></li>
+                    <li class="ms-3"><a class="text-muted" href="#">
+                            <img src="./assets/img/instagram.svg" alt=""></li>
+                    <li class="ms-3"><a class="text-muted" href="#">
+                            <img src="./assets/img/youtube.svg" alt=""></li>
+                </ul>
+            </footer>
+        </div>
+   
+
+    <script src="./assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>
